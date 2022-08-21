@@ -1,0 +1,33 @@
+a.header {
+    background-color: gray;
+    color: #ffffff;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  
+  /* For desktop: */
+
+  .col-1{width: 101.5%;}
+  .col-2{float: right; width: 30%; height: 200px; background-color: rosybrown;}
+  .col-3{float: left; width: 70%; height: 200px; background-color: rosybrown; text-align: center; }
+  .col-4{float: left; width: 30%; height: 200px;  background-color: salmon;}
+  .col-5{float: right; width: 70%; height: 200px; background-color: salmon; text-align: center; }
+  .col-6{float: right; width: 30%; height: 200px; background-color: rosybrown;}
+  .col-7{float: left; width: 70%; height: 200px; background-color: rosybrown; text-align: center; }
+
+  img{display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */ 
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+  }
