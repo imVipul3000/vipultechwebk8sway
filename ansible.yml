@@ -2,12 +2,6 @@
   become: true
 
   tasks:
-  - name: delete old deployment
-    command: kubectl delete -f /opt/deployment.yml
-    
-  - name: delete service
-    command: kubectl delete -f /opt/service.yml
-
   - name: create new deployment
     command: kubectl apply -f /opt/deployment.yml
 
