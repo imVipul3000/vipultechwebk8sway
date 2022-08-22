@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: cloudknowledges
-        image: vijoshi3/cloudknowledges
+        image: vjoshi3/cloudknowledges
         imagePullPolicy: Always
         ports:
         - containerPort: 80
